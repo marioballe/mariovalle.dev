@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from "@/components/TheWelcome.vue";
+import LinkTree from "@/components/LinkTree.vue";
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <LinkTree />
   </main>
 </template>
