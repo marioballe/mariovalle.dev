@@ -1,48 +1,22 @@
 <template>
-  <div class="container">
-    <a class="button btn btn-large button-twitter margin-one-all">
-      <fa icon="twitter" type="fab" class="icon icon-align"></fa>
-      <span>twitter</span>
-    </a>
-  </div>
-  <div class="container">
-    <a class="button btn btn-large button-linkedin margin-one-all">
-      <fa icon="linkedin" type="fab" class="icon icon-align"></fa>
-      <span>linkedin</span>
-    </a>
-  </div>
-  <div class="container">
-    <a class="button btn btn-large button-twitch margin-one-all">
-      <fa icon="twitch" type="fab" class="icon icon-align"></fa>
-      <span>twitch</span>
-    </a>
-  </div>
-  <div class="container">
-    <a class="button btn btn-large button-github margin-one-all">
-      <fa icon="github" type="fab" class="icon icon-align"></fa>
-      <span>github</span>
-    </a>
-  </div>
-  <div class="container">
-    <a class="button btn btn-large button-discord margin-one-all">
-      <fa icon="discord" type="fab" class="icon icon-align"></fa>
-      <span>discord</span>
-    </a>
-  </div>
-  <div class="container">
-    <a class="button btn btn-large button-spotify margin-one-all">
-      <fa icon="spotify" type="fab" class="icon icon-align"></fa>
-      <span>spotify</span>
-    </a>
-  </div>
-
-  <div class="container">
-    <a class="button btn btn-large button-youtube margin-one-all">
-      <fa icon="youtube" type="fab" class="icon icon-align"></fa>
-      <span>youtube</span>
+  <div class="container" v-for="social in socialMedia" :key="social.title">
+    <a :class="social.class" :href="social.url" target="_blank">
+      <fa :icon="social.icon" type="fab" class="icon icon-align"></fa>
+      <span>{{ social.title }}</span>
     </a>
   </div>
 </template>
+
+<script>
+import { socialMedia } from "@/data/data";
+
+export default {
+  name: "socialMedia",
+  data() {
+    return { socialMedia };
+  },
+};
+</script>
 
 <style scoped>
 .icon-align {
