@@ -8,10 +8,15 @@ import HelloCard from "@/components/HelloCard.vue";
   <header>
     <ProfileImage />
     <div class="wrapper">
-      <HelloCard msg="You did it!" />
+      <HelloCard />
       <nav>
         <RouterLink to="/">Inicio</RouterLink>
-        <RouterLink to="/about">Aptitudes</RouterLink>
+        <RouterLink to="/about">Skills</RouterLink>
+        <a
+          target="_blank"
+          href="https://www.meetup.com/es-ES/Meetup-de-InnoIT-Consulting-en-Barcelona/"
+          >Meetup</a
+        >
       </nav>
     </div>
   </header>
