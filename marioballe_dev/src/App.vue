@@ -9,8 +9,8 @@ import HelloCard from "@/components/HelloCard.vue";
     <div class="wrapper">
       <ProfileImage />
       <HelloCard />
-      <nav>
-        <RouterLink to="/">Inicio</RouterLink>
+      <nav class="menu">
+        <RouterLink to="/">Link Tree</RouterLink>
         <RouterLink to="/about">Skills</RouterLink>
         <a
           target="_blank"
@@ -45,10 +45,9 @@ a,
   transition: 0.4s;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.menu {
+  font-size: 18px;
+  margin-bottom: 18px;
 }
 
 nav {
@@ -110,6 +109,10 @@ nav a:first-of-type {
     font-size: 1rem;
     padding: 1rem 0;
     margin-top: 1rem;
+  }
+  .menu {
+    font-size: 16px;
+    margin-bottom: 16px;
   }
 }
 </style>
