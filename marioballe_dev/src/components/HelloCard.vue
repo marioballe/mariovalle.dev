@@ -17,11 +17,6 @@ h1 {
   font-size: 1.75rem;
   top: -10px;
 }
-
-h3 {
-  font-size: 0.813rem;
-}
-
 .greetings h1,
 .greetings h3 {
   text-align: center;
