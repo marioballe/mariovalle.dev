@@ -6,8 +6,8 @@ import HelloCard from "@/components/HelloCard.vue";
 
 <template>
   <header>
-    <ProfileImage />
     <div class="wrapper">
+      <ProfileImage />
       <HelloCard />
       <nav>
         <RouterLink to="/">Inicio</RouterLink>
