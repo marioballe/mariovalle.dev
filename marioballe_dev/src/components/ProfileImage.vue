@@ -1,6 +1,6 @@
 <template>
   <figure class="image is-250x250 is-centered">
-    <img class="" src="@/assets/profile.png" />
+    <img class="" src="@/assets/hello.svg" />
   </figure>
 </template>
 

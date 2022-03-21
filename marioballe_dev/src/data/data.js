@@ -11,11 +11,17 @@ let socialMedia = [
     icon: "linkedin",
     class: "button btn btn-large button-linkedin margin-one-all",
   },
-  {
+  /*{
     title: "Twitch",
     url: "https://www.twitch.tv/marioballe",
     icon: "twitch",
     class: "button btn btn-large button-twitch margin-one-all",
+  },*/
+  {
+    title: "Mi sitio web",
+    url: "https://marioballe.github.io",
+    icon: "bilibili",
+    class: "button btn btn-large button-site margin-one-all",
   },
   {
     title: "Github",
@@ -35,11 +41,11 @@ let socialMedia = [
     icon: "spotify",
     class: "button btn btn-large button-spotify margin-one-all",
   },
-  {
+  /*{
     title: "Youtube",
     url: "",
     icon: "youtube",
     class: "button btn btn-large button-youtube margin-one-all",
-  },
+  },*/
 ];
 export { socialMedia };

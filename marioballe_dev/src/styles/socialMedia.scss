@@ -82,3 +82,15 @@
     background-color: var(--vt-c-white);
     border-color: var(--vt-c-white);
   }
+  .button-site {
+    color: var(--vt-c-white);
+    background-color: var(--color-site-official);
+    border-color: var(--color-site-official);
+    margin: 0px auto;
+    height: 5em;
+  }
+  .button-site:hover {
+    color: var(--color-site-official);
+    background-color: var(--vt-c-white);
+    border-color: var(--vt-c-white);
+  }

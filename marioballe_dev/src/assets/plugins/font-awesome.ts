@@ -9,6 +9,7 @@ import {
   faSpotify,
   faYoutube,
   faInstagram,
+  faBilibili,
 } from "@fortawesome/free-brands-svg-icons";
 
 import FontAwesomeIcon from "@/libs/FontAwesomeIcon.vue";
@@ -22,7 +23,8 @@ library.add(
   faTwitch,
   faSpotify,
   faYoutube,
-  faInstagram
+  faInstagram,
+  faBilibili
 );
 
 export { FontAwesomeIcon };
