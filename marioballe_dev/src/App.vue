@@ -21,6 +21,13 @@ import HelloCard from "@/components/HelloCard.vue";
     </div>
   </header>
   <RouterView />
+  <div class="license">
+    <p>
+      <strong>marioballe.dev</strong> by <a>Mario Ballester Calleja</a>. The
+      source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+    </p>
+  </div>
 </template>
 
 <style>
@@ -37,7 +44,11 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
+.license {
+  background-color: var(--color-background-primary) !important;
+  font-size: x-small;
+  margin-top: 5%;
+}
 a,
 .green {
   text-decoration: none;
@@ -80,7 +91,13 @@ nav a:first-of-type {
     display: flex;
     place-items: center;
   }
-
+  .license {
+    background-color: var(--color-background-primary) !important;
+    font-size: smaller;
+    text-align: right;
+    width: 200%;
+    margin-top: 5%;
+  }
   #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
