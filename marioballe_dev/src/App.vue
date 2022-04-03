@@ -23,8 +23,8 @@ import HelloCard from "@/components/HelloCard.vue";
   <RouterView />
   <div class="license">
     <p>
-      <strong>marioballe.dev</strong> by <a>Mario Ballester Calleja</a>. The
-      source code is licensed
+      <strong>marioballe.dev</strong> by <a>Mario Ballester Calleja</a> on 2022.
+      The source code is licensed
       <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
     </p>
   </div>
