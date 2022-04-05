@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>This page is not ready yet</h1>
+    <h1>Esta página no está lista todavía</h1>
   </div>
 </template>
 

@@ -31,7 +31,7 @@ let socialMedia = [
   },
   {
     title: "Discord",
-    url: "",
+    url: "https://discord.gg/sfg27272",
     icon: "discord",
     class: "button btn btn-large button-discord margin-one-all",
   },
