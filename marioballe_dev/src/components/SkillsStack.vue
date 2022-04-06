@@ -5,7 +5,7 @@
       <div
         v-for="skill in skillsStack"
         :key="skill.class"
-        class="column is-narrow is-12-mobile is-4-tablet is-2-desktop"
+        class="column is-narrow is-12-mobile is-4-tablet is-3-desktop"
       >
         <article
           class="tile is-child notification with-shadow"
