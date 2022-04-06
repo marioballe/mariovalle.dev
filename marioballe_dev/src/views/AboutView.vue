@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import skillsStack from "@/components/SkillsStack.vue";
+</script>
+
 <template>
   <div class="about">
-    <h1>Esta página no está lista todavía</h1>
+    <skillsStack />
   </div>
 </template>
 
